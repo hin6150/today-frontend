@@ -8,7 +8,9 @@
 
 [React Today](https://today-frontend-seven.vercel.app/)
 
-[Untitled.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/365c0377-461e-4a15-adda-4026aef825f9/518af297-652b-4d88-af1b-42845276f7dc/Untitled.mp4)
+https://github.com/hin6150/today-frontend/assets/3265750/fd014574-7ed7-4118-8a18-385b1c53ca56
+
+
 
 팀원: 디자인 1, FE 2, BE 2
 
