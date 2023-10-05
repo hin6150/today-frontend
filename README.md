@@ -6,7 +6,7 @@
 
 남녀노소 누구나 “간단”하게, 내일 하루 서비스를 통해서 즐겁게 보내보는 건 어떨까요?
 
-[React Today](https://today-frontend-seven.vercel.app/)
+<h4>[서비스 링크](https://today-frontend-seven.vercel.app/)</h4>
 
 https://github.com/hin6150/today-frontend/assets/3265750/fd014574-7ed7-4118-8a18-385b1c53ca56
 
