@@ -1,70 +1,24 @@
-# git branch
-main(=master) : 최종 배포용 브랜치
-release : 배포 전 테스트 및 품질검사용 브랜치
-dev : 각자 맡은 기능을 개발하는 feature 브랜치에서 개발 완료 시 병합(merge)하는 브랜치
+# 프로젝트 내일 하루
 
-## 프로젝트 실행 순서
-1. git clone url
-2. npm install
-3. npm run start
+🧑🏻 “내가 좋아하는 활동을 하고 싶은데 같이 할 사람이 없어”
+🧑🏼 ”취미 생활을 하고 싶은데, 동아리나 모임은 너무 가입하기 번거로워”
+👩🏻 ”내일 시간이 비는데 무언가 재밌는 활동을 해보고 싶어”
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+남녀노소 누구나 “간단”하게, 내일 하루 서비스를 통해서 즐겁게 보내보는 건 어떨까요?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[React Today](https://today-frontend-seven.vercel.app/)
 
-### `npm test`
+[Untitled.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/365c0377-461e-4a15-adda-4026aef825f9/518af297-652b-4d88-af1b-42845276f7dc/Untitled.mp4)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+팀원: 디자인 1, FE 2, BE 2
 
-### `npm run build`
+작업 내용:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 카카오맵 API 연동
+    - 정적 모임 데이터를 가지고 좌표상에 Marker 생성
+    - 검색, 모임 주소로 이동, MouseOver 등 기능 구현
+    - 내 위치 정보 표기
+- 지도 페이지 UI 구현
+- 모달 UI 구현
+    - Local 상에서 모임 추가 기능 구현
+- 반응형 작업
